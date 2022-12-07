@@ -7,7 +7,7 @@ export const sampleData = [
   {
     name: 'House 2',
     cost: '60',
-    imgUrl: 'https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
+    imgUrl: 'https://images.unsplash.com/photo-1517541866997-ea18e32ea9e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80'
   },
   {
     name: 'House 3',
@@ -17,12 +17,12 @@ export const sampleData = [
   {
     name: 'House 4',
     cost: '60',
-    imgUrl: 'https://images.unsplash.com/photo-1626290246891-a498b0097e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'
+    imgUrl: 'https://images.unsplash.com/photo-1589129140837-67287c22521b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80'
   },
   {
     name: 'House 5',
     cost: '60',
-    imgUrl: 'https://images.unsplash.com/photo-1599202937077-3f7cdc53f2e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'
+    imgUrl: 'https://images.unsplash.com/photo-1602836948295-14b195efa63d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80'
   },
   {
     name: 'House 6',
@@ -42,7 +42,7 @@ export const sampleData = [
   {
     name: 'House 9',
     cost: '60',
-    imgUrl: 'https://images.unsplash.com/photo-1659720879283-7bb2c29370cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+    imgUrl: 'https://images.unsplash.com/photo-1570793005386-840846445fed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80'
   },{
     name: 'House 10',
     cost: '60',

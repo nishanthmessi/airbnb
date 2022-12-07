@@ -11,7 +11,7 @@ const Cards = () => {
               <Image src={home.imgUrl} fill className='rounded-xl'/> 
             </div>
             <h3 className='text-xl font-bold mt-3'>{home.name}</h3>
-            <p>${home.cost}</p>
+            <p className='text-lg font-bold'>${home.cost} <span className='font-normal'>night</span> </p>
           </div>
         )) 
         }
