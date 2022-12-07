@@ -7,7 +7,7 @@ const Categories = () => {
       <div className='flex gap-12 whitespace-nowrap overflow-x-scroll scrollbar-hide'>
         {
           categories.map((category, i) => (
-            <div key={i} className='flex flex-col items-center gap-2 font-medium hover:text-gray-800 cursor-pointer hover:underline underline-offset-8 decoration-4 decoration-gray-300 py-4 opacity-70 hover:opacity-100'>
+            <div key={i} className='flex flex-col items-center gap-2 font-medium text-[15px] hover:text-gray-800 cursor-pointer hover:underline underline-offset-8 decoration-4 decoration-gray-300 py-4 opacity-70 hover:opacity-100'>
               <Image alt="img" src={require(`../assets/img/${category.imgName}.jpg`)} className='' width={30} height={30}/>
               <p>{category.name}</p>
             </div>

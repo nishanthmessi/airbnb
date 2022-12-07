@@ -21,7 +21,7 @@ const Header = () => {
 
       <div className="flex items-center justify-end space-x-4">
         <div className="flex space-x-4 cursor-pointer">
-          <p className="hidden md:inline font-bold text-gray-600 ">Airbnb your home</p>
+          <p className="hidden md:inline font-extrabold text-gray-900">Airbnb your home</p>
           <GlobeAltIcon className="h-6 text-gray-700"/>
         </div>
         
