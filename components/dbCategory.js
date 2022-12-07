@@ -47,10 +47,10 @@ export const categories = [
     name: 'National Parks',
     imgName: 'national-park'
   },
-  // {
-  //   name: 'Country Side',
-  //   imgName: 'country-side'
-  // },
+  {
+    name: 'Country Side',
+    imgName: 'country-side'
+  },
   {
     name: 'Lake',
     imgName: 'lake'
