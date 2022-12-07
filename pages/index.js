@@ -1,5 +1,8 @@
 import Head from 'next/head'
+import Cards from '../components/Cards'
+import Categories from '../components/Categories'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -11,7 +14,14 @@ export default function Home() {
       </Head>
 
       <Header/>
+      <Categories/>
+      <Cards/>
+      <Footer/>
       {/* Banner */}
     </div>
   )
 }
+
+// export async function getStaticProps () {
+//   const exploreData = await fetch('')
+// }
