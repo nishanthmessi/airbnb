@@ -8,7 +8,7 @@ const Cards = () => {
         {sampleData.map((home, i) => (
           <div key={i} className='cursor-pointer mb-6'>
             <div className='relative h-96 w-96 md:h-[22rem] md:w-[22rem]'>
-              <Image src={home.imgUrl} fill className='rounded-xl'/> 
+              <Image src={home.imgUrl} fill className='rounded-xl object-cover'/> 
             </div>
             <h3 className='text-xl font-bold mt-3'>{home.name}</h3>
             <p className='text-lg font-bold'>${home.cost} <span className='font-normal'>night</span> </p>

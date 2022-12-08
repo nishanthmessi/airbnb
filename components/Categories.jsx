@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { categories } from './dbCategory'
+import { categories } from './CategoryList'
 
 const Categories = () => {
   return (
