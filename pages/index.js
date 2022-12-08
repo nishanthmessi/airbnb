@@ -17,7 +17,6 @@ export default function Home() {
       <Categories/>
       <Cards/>
       <Footer/>
-      {/* Banner */}
     </div>
   )
 }
