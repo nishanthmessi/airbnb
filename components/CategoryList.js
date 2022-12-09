@@ -1,11 +1,11 @@
 export const categories = [
   {
-    name: 'Amazing Pools',
-    imgName: 'swimming-pool'
-  },
-  {
     name: 'Farms',
     imgName: 'farms'
+  },
+  {
+    name: 'Amazing Pools',
+    imgName: 'swimming-pool'
   },
   {
     name: 'Amazing Views',

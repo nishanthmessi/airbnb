@@ -20,7 +20,7 @@ const Search = ({ searchResults }) => {
       <Header placeholder={`${location} | ${range} | ${guests}`}/>
       <Categories/>
       <main className='flex'>
-        <section className='pl-8 max-w-4xl'>
+        <section className='pl-8 max-w-4xl z-30 bg-white'>
           <p className='text-base font-bold mb-6 ml-12'>Over 1,000 homes in {location}</p>
           <div className='flex flex-wrap justify-center gap-8'>
             {searchResults.map(({ img, location, title, description, star, price , total }, i) => (
@@ -47,7 +47,7 @@ const Search = ({ searchResults }) => {
           </div> 
         </section>
 
-        <section className='hidden xl:inline-flex overscroll-y-none scrollbar-hide'>
+        <section className='hidden xl:inline-flex xl:fixed xl:top-0 xl:right-0 overscroll-y-none scrollbar-hide'>
           <MapGeo searchResults={searchResults}/>
         </section>
       </main>

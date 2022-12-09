@@ -16,7 +16,7 @@ const MapGeo = ({ searchResults }) => {
         latitude: center.latitude,
         zoom: 7,
       }}
-      style={{width: 1250, height: 800}}
+      style={{width: 1250, height: 1080}}
       mapStyle = "mapbox://styles/nishanthmessi/clbf0tkny000j14oz0mtoc7no"
       mapboxAccessToken = {process.env.MAP_TOKEN}
       >

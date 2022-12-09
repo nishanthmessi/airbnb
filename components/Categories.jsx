@@ -3,18 +3,18 @@ import { categories } from './CategoryList'
 
 const Categories = () => {
   return (
-    <div className='sticky top-24 z-50 bg-white p-5 md:px-20'>
+    <div className='sticky top-24 z-40 bg-white p-5 md:px-20 border-b border-neutral-200'>
       <div className='flex gap-12 whitespace-nowrap overflow-x-scroll scrollbar-hide'>
         {
           categories.map((category, i) => (
-            <div key={i} className='flex flex-col items-center gap-2 font-medium text-[15px] hover:text-gray-800 cursor-pointer hover:underline underline-offset-8 decoration-4 decoration-gray-300 py-4 opacity-70 hover:opacity-100'>
+            <div key={i} className='flex flex-col items-center gap-2 font-medium text-[15px] hover:text-gray-800 cursor-pointer hover:underline underline-offset-8 decoration-4 decoration-gray-300 py-4 opacity-70 hover:opacity-100 first:pl-3'>
               <Image alt="img" src={require(`../assets/img/${category.imgName}.jpg`)} className='' width={30} height={30}/>
               <p>{category.name}</p>
             </div>
           ))
         }
-        <div className='flex gap-6 text-md items-center py-0 cursor-pointer'>
-          <div className='border-2 border-gray-300 rounded-full p-1 hover:border-gray-400 -ml-6'>
+        <div className='flex gap-6 text-md items-center cursor-pointer'>
+          <div className='border-2 border-gray-300 rounded-full p-1 hover:border-gray-400 -ml-6 hover:scale-110'>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>  

@@ -53,10 +53,10 @@ const Header = ({ placeholder }) => {
         />
       </div>
 
-      <div className="flex justify-center md:border-2 rounded-full py-2 md:shadow-md max-w-sm">
+      <div className="flex justify-center md:border-2 rounded-full py-2 md:shadow-md max-w-md">
         <input 
           type="text" 
-          className="flex-grow pl-5 bg-transparent outline-none text-sm text-gray-600 font-bold placeholder-gray-400 placeholder:font-normal" 
+          className="flex-grow pl-5 py-2 bg-transparent outline-none text-sm text-gray-600 font-bold placeholder-gray-400 placeholder:font-normal" 
           placeholder={placeholder || "Search your destination"}
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
@@ -64,14 +64,14 @@ const Header = ({ placeholder }) => {
         <SearchIcon className="hidden md:inline-flex h-8 text-white bg-red-400 rounded-full p-2 cursor-pointer md:mx-2"/>
       </div>
 
-      <div className="flex items-center justify-end space-x-4">
+      <div className="flex items-center justify-end space-x-6">
         <div className="flex space-x-4 cursor-pointer">
           <p className="hidden md:inline font-extrabold text-gray-900">Airbnb your home</p>
           <GlobeAltIcon className="h-6 text-gray-700"/>
         </div>
         
 
-        <div className="flex items-center justify-end space-x-2 border-2 border-gray-300 shadow-sm px-2 py-1 rounded-full text-gray-700 cursor-pointer hover:shadow-lg">
+        <div className="flex items-center justify-end space-x-2 border-2 border-gray-300 shadow-sm px-2.5 py-1 rounded-full text-gray-700 cursor-pointer hover:shadow-lg">
           <MenuIcon className="h-6"/>
           <UserCircleIcon className="text-zinc-500 h-10"/>
         </div>
