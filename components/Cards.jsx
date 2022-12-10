@@ -12,13 +12,10 @@ const Cards = () => {
               <Image src={home.imgUrl} fill className='rounded-xl object-cover'/> 
             </div>
             <div className='flex justify-between items-center mt-3 text-xl'>
-              
               <h3 className='font-bold'>{home.name}</h3>
               <p className='flex items-center gap-1'><span><StarIcon className='h-5 text-gray-800'/></span>4.5</p>
             </div>
             <p className='text-lg font-bold'>${home.cost} <span className='font-normal'>night</span> </p>
-            
-            
           </div>
         )) 
         }

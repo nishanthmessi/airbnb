@@ -21,11 +21,11 @@ const Search = ({ searchResults }) => {
       <Categories/>
       <main className='flex'>
         <section className='pl-8 max-w-4xl z-30 bg-white'>
-          <p className='text-base font-bold mb-6 ml-12'>Over 1,000 homes in {location}</p>
+          <p className='text-base font-bold my-6 flex md:pl-8 justify-center md:justify-start'>Over 1,000 homes in {location}</p>
           <div className='flex flex-wrap justify-center gap-8'>
             {searchResults.map(({ img, location, title, description, star, price , total }, i) => (
               <div key={i} className='cursor-pointer mb-6'>
-                <div className='relative h-96 w-96 md:h-[22rem] md:w-[22rem] gap-2'>
+                <div className='relative h-96 w-96 md:h-[23rem] md:w-[24rem] gap-2'>
                   <Image src={img} alt='houses' fill className='rounded-xl object-cover'/> 
                 </div>
                 <div className='flex items-center mt-3 justify-between'>
@@ -39,9 +39,8 @@ const Search = ({ searchResults }) => {
                     </p>
                   </div>
                 </div>
-                
-                <h3 className='text-lg'>{title}</h3>
-                <p className='text-lg font-bold'>{price} <span className='font-normal'></span> </p>  
+                  <h3 className='text-lg text-cutoff max-w-sm'>{title}</h3>
+                  <p className='text-lg font-bold'>{price} <span className='font-normal'></span> </p>
               </div>
             ))}
           </div> 

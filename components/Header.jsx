@@ -43,7 +43,7 @@ const Header = ({ placeholder }) => {
   }
 
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 bg-white border-2 p-5 space-x-24 md:px-24">
+    <header className="sticky top-0 z-50 grid grid-cols-3 bg-white border-b-2 p-5 space-x-24 md:px-24">
       <div className="relative flex items-center justify-start h-10 cursor-pointer my-auto" onClick={() => router.push('/')}>
         <Image 
           src={Logo} 
@@ -69,8 +69,6 @@ const Header = ({ placeholder }) => {
           <p className="hidden md:inline font-extrabold text-gray-900">Airbnb your home</p>
           <GlobeAltIcon className="h-6 text-gray-700"/>
         </div>
-        
-
         <div className="flex items-center justify-end space-x-2 border-2 border-gray-300 shadow-sm px-2.5 py-1 rounded-full text-gray-700 cursor-pointer hover:shadow-lg">
           <MenuIcon className="h-6"/>
           <UserCircleIcon className="text-zinc-500 h-10"/>
